@@ -1,0 +1,34 @@
+{
+  "name": "@ctrl/ngx-chartjs",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/chart.js": "^2.7.32",
+    "tslib": "^1.9.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.2.0 || ^6.0.0 || ^7.0.0"
+  },
+  "repository": "typectrl/ngx-chartjs",
+  "homepage": "https://github.com/typectrl/ngx-chartjs",
+  "bugs": "https://github.com/typectrl/ngx-chartjs/issues",
+  "license": "MIT",
+  "description": "chartjs wrapper for angular",
+  "keywords": [
+    "chartjs",
+    "graphs",
+    "angular"
+  ],
+  "main": "bundles/ctrl-ngx-chartjs.umd.js",
+  "module": "fesm5/ctrl-ngx-chartjs.js",
+  "es2015": "fesm2015/ctrl-ngx-chartjs.js",
+  "esm5": "esm5/ctrl-ngx-chartjs.js",
+  "esm2015": "esm2015/ctrl-ngx-chartjs.js",
+  "fesm5": "fesm5/ctrl-ngx-chartjs.js",
+  "fesm2015": "fesm2015/ctrl-ngx-chartjs.js",
+  "typings": "ctrl-ngx-chartjs.d.ts",
+  "metadata": "ctrl-ngx-chartjs.metadata.json",
+  "sideEffects": false
+}
